@@ -6,7 +6,7 @@ function UserInput(props) {
     return (
         <div className="single-input">
             <label>{props.label}</label>
-            <input onChange={((event) => props.onChangeInput(props.id, event.target.value))}></input>
+            <input value={props.value} onChange={((event) => props.onChangeInput(props.id, event.target.value))}></input>
         </div>
     );
 };

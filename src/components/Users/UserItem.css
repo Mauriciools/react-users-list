@@ -2,7 +2,7 @@
 
 li {
     display: flex;
-    width: 32rem;
+    width: 32.5rem;
     padding: 0.4rem;
 }
 
@@ -17,4 +17,15 @@ li {
 
 .user-info label {
     font-family: 'Varela Round', sans-serif;
+}
+
+.user-info .user-info-buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 5px;
+}
+
+.user-info .user-info-buttons button {
+    padding: 0 10px;
+    margin: 0;    
 }

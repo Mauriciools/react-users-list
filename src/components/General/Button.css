@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-.form-div {
-    margin: 1rem;
-    padding: 0.25rem 1.5rem;
-    background-color: rgba(154, 142, 172, 0.3);
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    margin: 2rem;
-}
-
-form button {
+.button {
     margin-top: 0.5rem;
     padding: 6px 16px;
     cursor: pointer;
@@ -25,6 +11,6 @@ form button {
     background-color: rgba(229, 145, 240, 0.7);
 }
 
-form button:hover {
+.button:hover {
     background-color: rgba(229, 145, 240, 1);
 }

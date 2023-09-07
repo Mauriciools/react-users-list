@@ -10,8 +10,7 @@ function UserItem(props) {
             <Card className="user-info">
                 <label>{props.username} - {props.age} years old</label>
                 <div className="user-info-buttons">
-                    <Button>Edit</Button>
-                    <Button>Delete</Button>
+                    <Button onClick={() => props.onDeleteUser(props.id)}>Delete</Button>
                 </div>
             </Card>
         </li>

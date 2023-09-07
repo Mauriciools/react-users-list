@@ -1,8 +1,8 @@
-# Investment Calculator project
+# Users List
 
-This project was carried out as a simple technical challenge from a React course I am taking.\
-The idea behind it is to add users to a dynamic list storing the passed information about their name and age. Moreover, I implemented a delete button/method so we can exclude any desired user from the list displayed on the screen by its Id.
-In here, I practiced my knowledge about React components, React states, React props, CSS styling and some more stuff! I hope you enjoy :)
+This project was a simple technical challenge from a React course I am taking.\
+The idea behind it is to add users to a dynamic list storing the passed information about their name and age. Moreover, I implemented a delete button/method so we can exclude any desired user from the list displayed on the screen by its ID.
+Here, I practiced my knowledge about React components, React states, React props, CSS styling, and more! I hope you enjoy :)
 
 ## Available Scripts
 
